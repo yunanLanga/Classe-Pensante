@@ -1,0 +1,381 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+   /* font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;*/
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+    background-color: blue;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fixed a{
+    color: #fff;
+}
+
+ .header{
+    background-color: #fff;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    font-family: 'Open Sans',sans-serif;
+    }
+    
+ .logo{
+     margin-left: 30px;
+ }
+
+.logo img{
+    width: 250px;
+    height: 120px;
+}
+
+.header nav{
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.header nav ul{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.header nav ul li{
+    margin: 25px;
+    list-style: none;
+}
+
+.header nav ul li a{
+    color: blue;
+    text-decoration: none;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+
+.header nav ul li a:hover{
+    text-decoration: underline blue 4px ;
+    margin-top: 10px;
+    
+}
+
+
+.header nav div{
+   padding: 10px;
+   background-color: blue;
+   margin-right: 20px;
+   margin-left: 50px;
+   border: solid 1px #fff;
+   border-radius: 6px;
+}
+
+.header nav div a{
+    color:#fff;
+    text-decoration: none;
+} 
+
+
+.header nav div:hover{
+    padding: 10px;
+    background-color: #fff;
+    margin-right: 20px;
+    margin-left: 50px;
+    border: solid 1px blue;
+    border-radius: 6px;
+    color:blue;
+}
+ 
+.header nav div a:hover{
+    color:blue;
+    cursor: pointer;
+    text-decoration: none;
+} 
+
+.container{
+    margin-top:50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.container .banner{
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+/*background-image: url(../Foto/ban.jpg);*/
+ background-color: rgb(224,227, 228);
+}
+.container .banner .conponete1{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .banner .conponete1 p {
+  font-size: 55px;
+  margin-left: 20px;
+  font-weight: 530;
+  /*font-family: 'Dancing Script', cursive !important;*/
+}
+
+.container .banner .conponete1 p a{
+    text-decoration: none;
+    font-size: 21px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: blue;
+}
+
+.container .banner .conponete1 p a:hover{
+    background-color: #fff;
+    border: 1px solid blue;
+    color: blue;
+}
+
+.container .banner .conponete1 .details{
+   margin-top: 30px;
+   text-align: center;
+   width: 650px;
+   height: 50px;
+   background-color: #fff;
+   font-size: 20px; 
+   columns: 3; 
+   column-gap: 50px;
+    column-rule: 2px outset blue;
+}
+
+.container .banner .conponete2{
+    width: 40%;
+    height: 100%;
+}
+
+.container .banner img{
+    width: 100%;
+    height: 100%;
+}
+.container .about{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container .about .first{
+    width: 30%;
+    height: 400px;
+    margin-top: 80px;
+}
+
+.container .about .first img{
+    width: 100%;
+    height: 400px;
+}
+ .container .about .second{
+     width: 35%;
+     text-align: center;
+     height: 400px;
+     background-color: blue;
+     margin-top: 80px;
+ }
+
+ .container .about .second h2{
+     margin-top: 35px;
+     color:#fff;
+ }
+ .container .about .second p{
+      margin-top: 60px;
+      margin-bottom: 70px;
+      margin-left: 15px;
+      margin-right: 15px;
+      color:#fff;
+ }
+
+ .container .about .second a{
+     margin-top: 40px;
+     color: #fff;
+     text-decoration: none;
+     padding: 15px;
+     border: solid 1px #fff; 
+     border-radius: 6px;
+ }
+ .container .about .second a:hover{
+    color: blue;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    border: solid 1px blue; 
+    border-radius: 6px;
+}
+
+.presertiva{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.presertiva .cardP{
+margin: 50px;
+}
+
+.container .service{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.container .service .containerServices{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+
+.container .service .containerServices .servico1,.servico2,.servico3,.servico4,.servico5,.servico6{
+    border: 4px solid /*#e0e3e4*/ blue;
+    width: 350px;
+    height: 200px;
+    margin: 30px;
+}
+
+.container .service .containerServices .servico1 .cardTitle, .servico2 .cardTitle,.servico3 .cardTitle,.servico4 .cardTitle,.servico5 .cardTitle,.servico6 .cardTitle{
+    text-align: center;
+    margin: 15px;
+    opacity: 0.8;
+}
+
+.container .service .containerServices .servico1 p,.servico2 p,.servico3 p,.servico4 p,.servico5 p,.servico6 p{
+  margin: 15px;
+  text-align:center;
+  opacity: 0.5;
+}
+
+.container .campos{
+    margin-top: 100px ;
+    width: 100%;
+    height:350px;
+}
+
+.container .campos .labelContact{
+     background-color: #e0e3e4;
+     height: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+}
+.container .campos .labelContact p{
+    margin-bottom: 10px;
+    font-size: 45px;
+    font-weight: 540;
+    
+}
+.container .campos .talk{
+    width: 100%;
+    height: 300px;
+  /*  background: url(../Foto/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color:rgba(224,227, 228,1);
+    display: flex;
+    justify-content: center;
+    
+}
+.container .campos .talk form {
+    width: 60%;
+    max-width: 1080px;
+    height: 220px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;   
+}
+
+.container .campos .talk form button{
+    height: 50px;
+    width: 120px;
+    margin-left: 10px;
+    margin-top: 35px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.container .campos .talk form button:hover{
+   color: blue;
+   background-color: #fff;
+   border: 2px solid blue;
+}
+
+.container .campos .talk form input{
+    width: 320px;
+    height: 50px;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+.container .campos .talk form input:placeholder{
+    color: aqua;
+}
+.container .campos .talk form textarea{
+  width: 785px;
+  margin-left: 15px;
+  margin-bottom: 35px;
+}
+
+.footer{
+    margin-top: 200px;
+    background-image: url(../Foto/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
+
+.footer .redesSocial ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .redesSocial ul li{
+    margin: 10px;
+    font-size: 25px;
+    list-style: none;
+}
+
+.footer .redesSocial ul li:hover{
+    font-size: 35px;
+}
